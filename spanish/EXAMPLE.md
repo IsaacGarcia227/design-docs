@@ -1,11 +1,10 @@
 # TITULO DEL DESIGN DOC
 Link: [Link a este design doc](#)
 
-Author(s): Charlie L
+Author(s):isaa_garcia
+Status: [Draft]
 
-Status: [Draft, Ready for review, In Review, Reviewed]
-
-Ultima actualización: YYYY-MM-DD
+Ultima actualización: 2025-03-08
 
 ## Contenido
 - Goals
@@ -23,29 +22,25 @@ Ultima actualización: YYYY-MM-DD
 - Métricas
 
 ## Links
-- [Un link](#)
-- [Otro link](#)
+(estado del tiempo)https://search.brave.com/search?q=wheather+now&source=newtab
+(noticias)https://www.milenio.com/
+(laMañanera)https://www.youtube.com/@gobiernodemexico
 
 ## Objetivo
-Una aplicación web que transfiera playlists de Spotify a YouTube Music
-
-Actualmente, ninguna app ofrece una forma de transferir playlists desde una plataforma a la otra
+Imprima la condición meteorológica y tres noticias de impacto nacional y la mañanera de ser posible).
+Amanecer con la informacion de lo que acontece en el momento.
 
 ## Goals
-- Transferir playlists de Spotify a YouTube Music
-- Ofrecer opciones para elegir el reemplazo de una canción si no se encuentra el match
+Conectar con paginas oficiales y redireccionar la informacion al bot
 ## Non-Goals
-- Transferir playlists de YouTube Music a Spotify
-- Mantener en sincronía ambas playlist
+Todo por escrito, nada vocal con la excepción de la mañanera reproducida en Youtube
 
 ## Background
-Hace poco me cambié de Spotify a YouTube Music, y no pude transferir mis playlists porque ambas apps no ofrecen herramientas para ello
-
+Me interesa saber hacer el diseño de bots que tengan fucniones de interés público.
 Hay sitios web que ofrecen este feature, pero mi segunda intención es aprender a usar las APIs de YT Music y Spotify
 
 ## Overview
-Necesitamos una API que convierta una playlist de un usuario de Spotify a una playlist de YouTube Music
-
+Quiero poder conectar mi bot 
 Cada playlist tiene un id, y podemos consultar todas sus canciones a través de la API oficial usando ese id
 
 Spotify ofrece una [API](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-list-users-playlists) que podemos usar para obtener:
